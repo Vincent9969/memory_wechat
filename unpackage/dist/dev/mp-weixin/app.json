@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/memory/index",
+    "pages/memory/addmemory",
+    "pages/memory/reply",
+    "pages/photo/index",
+    "pages/photo/detail",
+    "pages/photo/addphoto",
+    "pages/photo/addimg",
+    "pages/scroll/index",
+    "pages/scroll/edit",
+    "pages/user/index",
+    "pages/user/edit",
+    "pages/lotty/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#e6adf2",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/memory/index",
+        "text": "首页",
+        "iconPath": "static/icon/homes.png",
+        "selectedIconPath": "static/icon/homes-selected.png"
+      },
+      {
+        "pagePath": "pages/photo/index",
+        "text": "相册",
+        "iconPath": "static/icon/pictuer.png",
+        "selectedIconPath": "static/icon/pictuer-selected.png"
+      },
+      {
+        "pagePath": "pages/scroll/index",
+        "text": "计划",
+        "iconPath": "./static/icon/plans.png",
+        "selectedIconPath": "static/icon/plans-selected.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "static/icon/usercenter.png",
+        "selectedIconPath": "static/icon/usercenter-selected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap98.json"
+}

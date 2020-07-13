@@ -1,0 +1,110 @@
+
+.meberInfo .uni-column {
+	padding-left: 0;
+}
+.meberInfo .title {
+	padding-left: 12.09px;
+}
+.mastername {
+	margin-bottom: 12.09rpx;
+}
+.matser 
+
+/* .birthday {
+	display: flex;
+}
+
+/* .birthday image {
+	width: 15.72upx;
+} */
+
+.masterinfo .master {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end !important;
+	-webkit-justify-content: flex-end !important;
+	        justify-content: flex-end !important;
+}
+.masterinfo {
+	height: 90rpx !important;
+}
+.avatar {
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	width: 90rpx;
+	height: 90rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-right: 36.29rpx;
+	float: right;
+	overflow: hidden;
+}
+.uni-btn-v {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	/* flex-direction: column; */
+}
+button {
+	background-color: #00686b;
+	border-radius: 8px;
+	color: #fff;
+	width: calc(100% - 48.38rpx);
+	margin: auto;
+	margin-left: 24.19rpx;
+}
+.codebtn {
+	width: 200rpx;
+	float: right;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 5px;
+}
+.uni-form-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background: #fff;
+	border-bottom: 1px solid #e3e4e5;
+	height: 66.53rpx;
+	padding-left: 12.09rpx;
+	padding-right: 24.19rpx;
+}
+.title {
+	width: 120.96rpx;
+	padding: 0 !important;
+}
+.title+view,
+.title+radio-group {
+	width: calc(100% - 120.96rpx);
+	/* flex: 1; */
+	text-align: right;
+}
+.uni-common-mt {
+	padding: 0;
+	padding-top: 10px;
+	width: 100%;
+	margin-top: 0;
+}
+.meberInfo .title {
+	padding-left: 12.09rpx !important;
+}
+.meberInfo .matser {
+	width: calc(100% - 140rpx) !important;
+}
+

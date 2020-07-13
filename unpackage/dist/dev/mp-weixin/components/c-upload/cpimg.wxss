@@ -1,0 +1,8 @@
+
+._cpimg {
+	position: fixed;
+	top: -99999px;
+	left: -99999px;
+	z-index: -99999;
+}
+

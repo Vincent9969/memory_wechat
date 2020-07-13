@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加相册",
+  "usingComponents": {
+    "c-label": "/components/cat-label/cat-label",
+    "an-upload-img": "/components/an-uploadImg/an-uploadImg"
+  }
+}

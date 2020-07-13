@@ -1,0 +1,160 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	// {
+	// 	"path": "pages/photo/addimg",
+	// 	"style": {
+	// 		"navigationBarTitleText": "添加相片"
+	// 	}
+	// },
+	// 	{
+	// 		"path": "pages/photo/addphoto",
+	// 		"style": {
+	// 			"navigationBarTitleText": "添加相册"
+	// 		}
+	// 	},
+		{
+			"path": "pages/memory/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent",
+						"buttons": [{
+							"background": "rgba(255,255,255,0.2)",
+							"color": "#696969",
+							"type": "none",
+							"fontSrc": "/static/fonts/iconfont.ttf",
+							"text": "\ue608" //小相机
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/memory/addmemory",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/memory/reply",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/photo/index",
+			"style": {
+				"navigationBarTitleText": "相册",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/photo/detail",
+			"style": {
+				"navigationBarTitleText": "相册详情",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"type": "share"
+						}]
+					}
+				},
+				"h5": {
+					"titleNView": {
+						"buttons": [{
+								"type": "share"
+							},
+							{
+								"type": "favorite"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/photo/addphoto",
+			"style": {
+				"navigationBarTitleText": "添加相册"
+			}
+		},
+		{
+			"path": "pages/photo/addimg",
+			"style": {
+				"navigationBarTitleText": "添加相片"
+			}
+		},
+		{
+			"path": "pages/scroll/index",
+			"style": {
+				"navigationBarTitleText": "计划",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/scroll/edit",
+			"style": {
+				"navigationBarTitleText": "计划详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/edit",
+			"style": {
+				"navigationBarTitleText": "编辑个人信息",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/lotty/index",
+			"style": {
+				"navigationBarTitleText": "幸运大抽奖",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#e6adf2",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/memory/index",
+			"text": "首页",
+			"iconPath":"static/icon/homes.png",
+			"selectedIconPath":"static/icon/homes-selected.png"
+		}, {
+			"pagePath": "pages/photo/index",
+			"text": "相册",
+			"iconPath":"static/icon/pictuer.png",
+			"selectedIconPath":"static/icon/pictuer-selected.png"
+			
+		}, {
+			"pagePath": "pages/scroll/index",
+			"text": "计划",
+			"iconPath":"./static/icon/plans.png",
+			"selectedIconPath":"static/icon/plans-selected.png"
+		}, {
+			"pagePath": "pages/user/index",
+			"text": "我的",
+			"iconPath":"static/icon/usercenter.png",
+			"selectedIconPath":"static/icon/usercenter-selected.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "计划",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "scroll": "/components/scroll/index",
+    "side-slip": "/components/side-slip/index"
+  }
+}

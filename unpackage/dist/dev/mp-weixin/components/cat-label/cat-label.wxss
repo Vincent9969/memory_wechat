@@ -1,0 +1,265 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.cLabelT {
+  position: relative;
+}
+.cLabel {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cLabel-mw {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.cLabel-m {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.text-cut {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.noflex {
+  margin-bottom: 15px;
+}
+.cLabel-r {
+  margin-left: 10px;
+}
+.c-mini {
+  padding: 5px 0;
+  margin: 0 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.c-small {
+  padding: 10px 0;
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.c-medium {
+  padding: 10px 0;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.c-textarea {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 15px;
+  color: #808080;
+}
+.c-textarea-count {
+  position: absolute;
+  font-size: 12px;
+  line-height: 16px;
+  bottom: 5px;
+  right: 0px;
+  color: #999;
+}
+.c-textarea textarea {
+  height: 80px;
+  font-size: inherit;
+  display: block;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  resize: none;
+}
+.c-textarea:focus-within {
+  border-color: #00a5e0;
+}
+.disabled, .disabled .uni-input-placeholder, .disabled .disabledInp, .disabled .input-placeholder {
+  color: #aaa;
+}
+.textarea-t {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.textarea-l {
+  margin-bottom: 15px;
+}
+.img-l {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.img-l .action {
+  font-size: 12px;
+  color: #999;
+}
+.subTitle {
+  font-size: 12px;
+}
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.flex-sub {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.grid.grid-square > uni-view > uni-text[class*="cuIcon-"] {
+  font-size: 26px;
+  position: absolute;
+  color: #8799a3;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #333;
+}
+.bg-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.grid.grid-square .cu-tag {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 3px;
+  padding: 3px 6px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.grid.grid-square > uni-view.bg-img uni-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.cu-tag {
+  font-size: 12px;
+  vertical-align: middle;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  box-sizing: border-box;
+  padding: 0px 8px;
+  height: 24px;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+.solids::after {
+  border: 4px solid #eee;
+}
+.cuIcon-cameraadd:before {
+  content: "+";
+}
+.grid.col-4.grid-square > uni-view {
+  padding-bottom: calc((100% - 30px)/4);
+  height: 0;
+  width: calc((100% - 30px)/4);
+}
+.grid.col-4 > uni-view {
+  width: 25%;
+}
+.grid.grid-square > uni-view {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+}
+.cuIcon-attentionforbidfill:before,
+.cuIcon-remind:before,
+.cuIcon-vipcard:before,
+.cuIcon-people:before,
+.cuIcon-attentionfill:before,
+.cuIcon-locationfill:before {
+  content: "@";
+}
+.cuIcon-close:before {
+  content: "\D7";
+}
+.cuIcon-right:before {
+  content: ">";
+  display: inline-block;
+  width: 30rpx;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 32rpx) center;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACDUlEQVRIS81W0XHTQBB9KyP5g8zEJYQKCJ8M8iSpANOBrgLiDkIFMRVcqADRgTMJ8ImpgJTgzMAHItbL3Dn2nCzJusjMKPer3Xv3nnbfrqCjIx3hwhuY3/XBv0VwRHIkggGIQ/towYzEXETSsJdfymt140OmEdgAZndyLoKRz4Uk0ugZx00P2AqcfdUTUN77AFbETKI4GdflVgLzhx5kv0X7sqy73LLfo5JXar4ZUwn891qnAnnbkmkhzYD3h8m7RmAveclbwfKfE0ghsr/1kcKP0Rt16sYUGC8rV341MiUvo6E6NnHZlZ5C5KgpJ+zxhVtwBWDfS9ACGMA0ipOT1QPXwN5srb6PZ2zSXNZr4OxanwJy3iSZ/d4SGOA4itVk6TsPx1vmHYAJfunHyhbldmDyFsCspEKA2apKbRfkD/ZZDDwsVbujlCP1BUu9Rp6EQzX1kn8j6O6bHuW5fN7MjeLEYj4B4Kp+JOZm+pQYC38WpKa8LMWY6WWmmHsqpfY0gl2qurq4umqnzgzkMb7bykCc/1uoausLXQ0Jy9pn6yDmQSAJJJd8IbpUvWVD2D4WV/H/dRFwbNJ9T/3q8wcXu24hpn2i50i8V5/14PCRvcZPSX7oD9VZnd36rbcLTPzZ81PYw9lO623B7UzF5zgmMRJiQMGBbQvihmIWeqRhgGkT4OrORsZtJpNPTmfA90mlSS5EwMWSAAAAAElFTkSuQmCC);
+}
+

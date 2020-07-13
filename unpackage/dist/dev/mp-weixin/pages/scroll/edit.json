@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "计划详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "c-label": "/components/cat-label/cat-label",
+    "an-upload-img": "/components/an-uploadImg/an-uploadImg"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "review": "/components/dl-review/review",
+    "ygc-comment": "/components/ygc-comment/ygc-comment"
+  }
+}

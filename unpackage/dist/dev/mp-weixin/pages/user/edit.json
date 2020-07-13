@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "编辑个人信息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "c-label": "/components/cat-label/cat-label"
+  }
+}

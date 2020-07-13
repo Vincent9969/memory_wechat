@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "c-picker": "/components/c-picker/c-picker",
+    "cp-img": "/components/c-upload/cpimg"
+  }
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  padding-bottom: 1rpx;
+}
+side-slip:not(:last-child) .cell {
+  border-bottom: 1rpx solid #ebedf0;
+}
+.title {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: #ffffff;
+  line-height: 90rpx;
+  text-align: center;
+  font-weight: bold;
+  font-family: "trebuchet MS", sans-serif;
+  font-style: italic;
+  color: #F08B8B;
+  font-size: 28rpx;
+  box-shadow: 0 0 20rpx -5rpx rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 32rpx) center;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACDUlEQVRIS81W0XHTQBB9KyP5g8zEJYQKCJ8M8iSpANOBrgLiDkIFMRVcqADRgTMJ8ImpgJTgzMAHItbL3Dn2nCzJusjMKPer3Xv3nnbfrqCjIx3hwhuY3/XBv0VwRHIkggGIQ/towYzEXETSsJdfymt140OmEdgAZndyLoKRz4Uk0ugZx00P2AqcfdUTUN77AFbETKI4GdflVgLzhx5kv0X7sqy73LLfo5JXar4ZUwn891qnAnnbkmkhzYD3h8m7RmAveclbwfKfE0ghsr/1kcKP0Rt16sYUGC8rV341MiUvo6E6NnHZlZ5C5KgpJ+zxhVtwBWDfS9ACGMA0ipOT1QPXwN5srb6PZ2zSXNZr4OxanwJy3iSZ/d4SGOA4itVk6TsPx1vmHYAJfunHyhbldmDyFsCspEKA2apKbRfkD/ZZDDwsVbujlCP1BUu9Rp6EQzX1kn8j6O6bHuW5fN7MjeLEYj4B4Kp+JOZm+pQYC38WpKa8LMWY6WWmmHsqpfY0gl2qurq4umqnzgzkMb7bykCc/1uoausLXQ0Jy9pn6yDmQSAJJJd8IbpUvWVD2D4WV/H/dRFwbNJ9T/3q8wcXu24hpn2i50i8V5/14PCRvcZPSX7oD9VZnd36rbcLTPzZ81PYw9lO623B7UzF5zgmMRJiQMGBbQvihmIWeqRhgGkT4OrORsZtJpNPTmfA90mlSS5EwMWSAAAAAElFTkSuQmCC);
+}
+.cells {
+  background: #ffffff;
+  margin-top: 20rpx;
+}
+.finish {
+  background-repeat: no-repeat;
+  background-position: calc(100% - 32rpx) center;
+  background-image: url(data:image/png;base64,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);
+}
+.cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx;
+}
+.cell:not(:last-child) {
+    border-bottom: 1rpx solid #ebedf0;
+}
+.cell__hd {
+    width: 130rpx;
+    height: 50rpx;
+    margin-right: 20rpx;
+    border-radius: 12rpx;
+    font-size: 24rpx;
+    border: 1rpx solid #ebedf0;
+    line-height: 50rpx;
+    text-align: center;
+}
+.cell__bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+}
+.cell__bd .name {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      word-break: break-all;
+      font-size: 28rpx;
+      margin-bottom: 12rpx;
+}
+.cell__bd .des {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      word-break: break-all;
+      color: #666666;
+      font-size: 24rpx;
+}
+.control-panel {
+  border-top: 1rpx solid #ebedf0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 12213;
+  background: #ffffff;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.control-panel.isX {
+    padding-bottom: 60rpx;
+}
+.panel-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.panel-item__bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+}
+
